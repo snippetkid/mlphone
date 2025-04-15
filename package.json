@@ -1,0 +1,14 @@
+{
+  "name": "mlphone",
+  "version": "1.0.0",
+  "description": "Phonetic hash generator for Malayalam",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "malayalam",
+    "phonetic",
+    "fuzzy-search"
+  ],
+  "author": "snippetkid",
+  "license": "MIT"
+}
