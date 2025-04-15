@@ -18,6 +18,18 @@
 npm install mlphone
 ```
 
+## 🔧 Usage
+```javascript
+import { computePhoneticHash } from 'mlphone';
+
+const [key0, key1, key2] = computePhoneticHash("കുട്ടി");
+
+console.log(key0); // KT3
+console.log(key1); // K2T3
+console.log(key2); // K2T24
+```
+
+
 ## 🔮 Roadmap
 
 - Support reverse mapping from hash → common words
